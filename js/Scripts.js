@@ -4,3 +4,10 @@
     });
 
 }
+
+function pagetop() {
+    document.getElementById('carouselExampleControls').scrollIntoView({
+        behavior:"smooth"
+    })
+
+}
