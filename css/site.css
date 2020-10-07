@@ -228,3 +228,21 @@ app {
     padding-top:1rem;
     padding-bottom:1rem;
 }
+
+
+.img-fluid{
+    max-height:20rem;
+}
+
+@media (max-width:700px){
+    .w-100{
+        max-height:420px;
+
+    }
+    .carousel-inner{
+        max-height:420px;
+    }
+    .page-section{
+        margin-top:1rem;
+    }
+}
